@@ -2,6 +2,19 @@ ul {
   list-style: none;
 }
 
+.wrapper {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.main-wrapper {
+  width: 600px;
+  margin-top: 30px;
+}
 
 .lamp {
   display: flex;
@@ -9,6 +22,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   width: 100px;
+  margin: 0;
   background-color: black;
   border-radius: 10px;
   -webkit-padding-start: 0px;
@@ -20,28 +34,36 @@ ul {
 
 .small-lamp {
   height: 200px;
-}
-
-.wrapper {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .circle {
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 20%;
   background-color: white;
 }
 
 .btn-walk {
-  width: 100%;
-  height: 50px;
+  width: 75px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border-radius: 30%;
+  background-color: grey;
+  border-color: transparent;
 }
 
-
+.timer {
+  width: 75px;
+  height: 80px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 30%;
+  background-color: grey;
+  padding-top: 30px;
+}
 
 .red {
   background-color: red;

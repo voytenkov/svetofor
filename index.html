@@ -7,7 +7,7 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="main-wrapper wrapper">
     <div class="wrapper">
       <ul class="lamp big-lamp">
         <li class="circle red"></li>
@@ -15,18 +15,19 @@
         <li class="circle"></li>
       </ul>
     </div>
-    <p id="timer"></p>
+    <div class="wrapper">
+      <p id="bigLampTimer" class="timer"></p>
+      <button id="walk" class="btn-walk">Walk</button>
+       <button id="stop" class="btn-walk">Stop</button>
+    </div>
     <div class="wrapper">
       <ul class="lamp small-lamp">
         <li class="circle"></li>
         <li class="circle green"></li>
       </ul>
-      <button id="start" class="btn-walk">Walk</button>
     </div>
-
   </div>
-  
+
   <script src="script.js"></script>
-  
-</body>
-</html>
+
+</body></html>
